@@ -52,7 +52,7 @@ export default class FinalizarCompra extends Component {
     if (!verifyEmpty) {
       resetProdutosCarrinho();
       this.setState({ ...finalizarCompra, verifyEmpty });
-      history.push('/compra-finalizada');
+      history.push('/');
     }
   }
 
