@@ -1,0 +1,97 @@
+article {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid #2d334a;
+    color: #272343;
+    transition: all 400ms ease;
+    width: 450px;
+}
+
+article:hover {
+    margin: 20px;
+    width: 700px;
+    justify-content: space-evenly;
+}
+
+.nome-produto { 
+    max-width: 300px;
+}
+
+.border-red {
+    outline: 2px double rgb(141, 0, 0);
+    border-bottom: none;
+}
+
+.info-comprador {
+    border: 2px solid #272343;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+.info-comprador input {
+    padding: 15px;
+    margin: 10px;
+    font-size: 16px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #272343;
+}
+
+.info-comprador select {
+    padding: 15px;
+    margin: 10px;
+    font-size: 16px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #272343;
+    align-self: center;
+    outline: none;
+}
+
+.formulario {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    color: #272343;
+
+}
+
+.method-pay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    color: #272343;
+}
+
+.method-pay button {
+    padding: 5px;
+    background-color: #ffd803;
+    border: 2px solid #272343;
+    font-weight: 900;
+    color: #2d334a;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.method-pay button:hover {
+    background-color: #272343;
+    color: #ffd803;
+    border-color: #ffd803;
+    margin: 5px;
+}
+
+input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    background-color: #e6e6e6;
+}
+

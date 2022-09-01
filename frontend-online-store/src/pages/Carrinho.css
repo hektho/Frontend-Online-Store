@@ -1,0 +1,110 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h1 {
+    margin: 10px;
+    background-color: #bae8e8;
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+    margin-top: 0;
+    box-shadow: 1px 1px 5px #272343;
+}
+
+.carrinho-container {
+    border: 2px solid #272343;
+    background-color: #2d334a;
+    overflow: auto;
+    max-height: 600px;
+    box-shadow: 1px 1px 5px #272343;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carrinho-container p {
+    font-size: 24px;
+}
+
+.produtos-carrinho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #272343;
+    width: 400px;
+    height: 300px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 10px;
+    color: #2d334a;
+    background-color: #fffffe;
+    transition: all 400ms ease;
+}
+
+.produtos-carrinho:hover {
+    background-color: #272343;
+    border: 2px solid #fffffe;
+    color: white;
+    width: 450px;
+}
+
+.product-quantity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-quantity button {
+    margin: 10px;
+    background-color: #ffd803;
+    width: 50px;
+    border: 2px solid #272343;
+    color: #2d334a;
+    font-size: 20px;
+    font-weight: 900;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.product-quantity button:hover {
+    background-color: #272343;
+    color: #ffd803;
+    border-color: #ffd803;
+}
+.total {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.total button {
+    padding: 10px;
+    width: 200px;
+    margin: 10px;
+    background-color: #ffd803;
+    border: 2px solid #272343;
+    color: #2d334a;
+    font-size: 16px;
+    font-weight: 900;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+
+.total button:hover {
+    background-color: #272343;
+  color: #ffd803;
+  border-color: #ffd803;
+}
+
+.span-carrinho {
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: red;
+    font-weight: 900;
+}
